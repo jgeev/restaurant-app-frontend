@@ -9,15 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.8.4",
+    "@stripe/react-stripe-js": "^2.3.0",
+    "@stripe/stripe-js": "^2.1.6",
+    "graphql": "^16.8.1",
+    "js-cookie": "^3.0.5",
+    "next": "latest",
+    "next-translate": "^2.6.0",
     "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
     "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "next-translate-plugin": "^2.6.0",
+    "postcss": "latest",
+    "tailwindcss": "latest"
   }
 }
